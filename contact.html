@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		
+		<title> Anime Club Blog </title>
+		
+		<meta name="description" content="A blog about the Anime Club" />
+		
+		<meta name="keywords" content="blog, hentai, anime" />
+	</head>
+
+	<body>
+		<header>
+			<h1 class="maintitlecontent"> <a href="homepage.html"> Anime Club </a></h1>
+
+				<nav>			
+					<ul class="directoryall">
+				
+						<li class="navigationall"> <a href="index.html"> Home </a></li>
+				
+						<li class="navigationall"> <a href="about.html"> About </a></li>
+				
+						<li class="navigationall"> <a href="contact.html"> Contact </a></li>
+			
+					</ul>
+
+		
+				</nav>
+		</header>
+		<main>
+			<h2 class="navtitle"> Contact Us </h2>
+				<p class="aboutandcontact"> Have a question? Want to contribute? Send us a note. </p>
+					<form action="contactsubmitted.html" method="get">
+						  <label> Name: <input type="text" name="name" required="required" placeholder="Enter Name" /> </label>
+					    <br />
+						  <label> Email: <input type="email" name="email" required="required" placeholder="Enter Email" /> </label>
+						<p class="aboutandcontact"> Are you a Weeb? </p>
+						  <label> <input type="radio" name="weeb" value="yes" required="required" /> Yes </label>
+						  <label> <input type="radio" name="weeb" value="no" required="required" /> No </label>
+						<p class="aboutandcontact"> How do you watch you anime? (We won't judge. This is just an experiment to see if putting <br />articles about new episode of x anime a hour later when it is released is a good idea.)</p>
+						  <label> <input type="checkbox" name="watching_method" value="wait_f" /> Wait till an episode or all episodes came out free on a paid membership website </label>
+					    <br />
+						  <label> <input type="checkbox" name="watching_method" value="paid" /> Paid membership to watch an episode (once it is released) or all episodes </label>
+					    <br />
+						  <label> <input type="checkbox" name="watching_method" value="pirated" /> Go to a pirated website to watch an episode or all episode </label>
+						<p class="aboutandcontact"> What type of anime genre are you into? (This is to better understand our readers. You can <br /> select more than once by holding Ctrl, or Command for Mac, while selecting different options)</p>
+						  <select name="genre" multiple="multiple"> 
+							<option value="action" > Action </option>
+						  	<option value="adventure" > Adventure </option>
+						  	<option value="comedy" > Comedy </option>
+						  	<option value="drama" > Drama </option>
+						  	<option value="slice_of_life" > Slice of Life </option>
+						  	<option value="fantasy" > Fantasy </option>
+						  	<option value="magic" > Magic </option>
+						  	<option value="supernatural" > Supernatural </option>
+						  	<option value="horror" > Horror </option>
+						  	<option value="mystery" > Mystery </option>
+						  	<option value="psychological" > Psychological </option>
+						  	<option value="romance" > Romance </option>
+						  	<option value="Sci_Fi" > Sci-Fi </option>
+						  </select>
+						<p class="aboutandcontact"> Your Message </p>
+						  <textarea name="comments">Enter your message here...</textarea>
+					    <br />
+						<input type="submit" value="Contact Us" id="button" />
+					</form>
+		</main>
+		<footer>
+			<hr /> &copy; Anime Club
+		</footer>
+</html>

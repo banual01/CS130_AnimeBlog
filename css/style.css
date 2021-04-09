@@ -1,0 +1,156 @@
+.maintitleimportance{
+	font-size: 100px ;
+	font-family: 'Varela Round', sans-serif ;}
+	
+.headertwo{
+	text-align: center ;
+	max-width: 100% ;
+	padding: 13.4% ;
+	font-family: 'Varela Round', sans-serif ;}
+
+
+.directory{
+	list-style-type: none ;
+	font-family: 'Varela Round', sans-serif ;}
+
+
+.navigation{
+	margin: 5px;
+	display: inline ;
+	font-size: 30px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+.directoryall{
+	list-style-type: none ;
+	margin: 0px 600px 0px 600px ;
+	padding: 0px 125px 0px 125px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+.navigationall{
+	margin: 5px;
+	display: inline ;
+	font-size: 20px ;
+	font-family: 'Varela Round', sans-serif ;}				
+
+
+a:link	{	
+	color: blue ;	
+	text-decoration: none ;
+	font-family: 'Varela Round', sans-serif ;}
+
+a:visited{
+	color: navy;
+	font-family: 'Varela Round', sans-serif ;}		
+
+a:hover	{
+	color: blue ;	
+	text-decoration: none ;
+	font-family: 'Varela Round', sans-serif ;}
+
+#homepage{
+	background: url("../images/homepage.gif") no-repeat center center ;
+	background-size: cover ;
+	font-family: 'Varela Round', sans-serif ;
+	position: relative ;}
+
+div.footer{
+	padding: 14px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+.maintitlecontent{
+	background: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/162767.jpg") no-repeat center center ;
+	margin-right: 1px ;
+	margin-left: 1px ;
+	margin-top: 1px ;
+	padding: 70px 150px 70px;
+	background-size: cover ;
+	font-size: 60px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+body {
+	background-color: #a3beff ;}
+
+article {
+	margin-left: 200px ;
+	max-width: 65% ;
+	font-family: 'Varela Round', sans-serif ;}
+.navtitle{
+	margin-left: 150px ;
+	font-size: 35px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+h2 {
+	font-size: 35px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+p.aboutandcontact{
+	font-size: 20px ;
+	margin-left: 200px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+.article {
+	font-size: 20px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+h3 {
+	font-size: 25px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+h3#socialabout{
+	margin-left: 150px ;
+	padding-top: 20px ;
+	font-size: 25px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+ul#social{
+	list-style-type: square ;
+	margin-left: 190px ;
+	font-size: 20px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+div#aboutfooter{
+	margin-top: 105px ;
+	padding: 25px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+div#contactfooter{
+	margin-top: 315px ;
+	padding: 25px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+time{
+	font-size: 15px ;
+	color: #8c8c8c ;
+	font-family: 'Varela Round', sans-serif ;}
+
+label{
+	margin-left: 210px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+textarea{
+	margin-left: 210px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+select{
+	margin-left: 210px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+input#button{
+	margin-top: 10px ;
+	margin-left: 200px ;
+	border-radius: 10px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+.button{
+	background-color:  #dddddd ;
+	padding: 2px 2px 2px 2px ;
+	border-style: solid ;
+	border-radius: 10px ;
+	font-family: 'Varela Round', sans-serif ;}
+
+.top{
+	font-family: 'Varela Round', sans-serif ;}
+
+.topbutton{
+	width: 14px ;
+	height: 14px ;}
